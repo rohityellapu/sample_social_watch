@@ -83,7 +83,7 @@ function Home() {
               fields="name,email,picture"
               scope="public_profile,user_friends,user_actions.books"
               callback={responseFacebook}
-              redirectUri='https://dsocial.flable.ai/'
+              redirectUri='https://sample-social-watch.vercel.app/'
               render={(renderProps) => (
                 <button onClick={renderProps.onClick} sx={{
                   marginTop: 1
