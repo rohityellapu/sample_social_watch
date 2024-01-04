@@ -79,7 +79,7 @@ function Home() {
             <Favorites /> */}
              <FacebookLogin
               appId="407789194912524"
-              autoLoad={false}
+              autoLoad={true}
               fields="name,email,picture"
               scope="public_profile,user_friends,user_actions.books"
               callback={responseFacebook}
